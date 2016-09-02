@@ -28,9 +28,6 @@ THe thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills
 ---------------------------------------
 ## Example Applications
 
-[![thingSoC GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/images/product/TSOC_GROVEY_ONE_wiring.png?raw=true)TSOC_GROVEY_ONE Example Wiring](https://github.com/thingSoC/TSOC_GROVEY_ONE/)
-
-
 * [Weather Sensor](http://www.mikroe.com/click/weather/) BOSCH BME280 Temp, Humidity, Air Pressure
 * [Methane Sensor](http://www.mikroe.com/click/methane/) MQ-4 Sensor for Methane (CH4) 
 * [Air Quality Sensor](http://www.mikroe.com/click/air-quality/) MQ-135 Sensor for Harmful Gasses
