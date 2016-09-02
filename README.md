@@ -16,6 +16,7 @@ THe thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills
 * [thingSoC Compliant Module](http://www.thingsoc.com)
 * [Mikrobus Compatible Module](http://www.mikroe.com/mikrobus/) 
 * 5V Nominal Power Input
+* 5V or 3.3V Operation
 * Supports Analog  Inputs  (ADC) 
 * Supports Digital Outputs (GPIO)
 * Supports Digital Inputs  (GPIO)
