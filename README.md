@@ -3,10 +3,12 @@
 
 The **TSOC_GROVEY_ONE** connects any thingSoC or Mikrobus module to the Arduino Development environment, with the original processor, the ATMEGA328P.
 
-The **TSOC_GROVEY_ONE** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) Modules all at the same time.
+The **TSOC_GROVEY_ONE** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), 
+and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) 
+Modules all at the same time, using the Arduino Development environment, with the original processor, the ATMEGA328P.
 This gives you maximum flexiblity for parts selection and reuse. 
 
-THe thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost approach to modular embedded product design.
+THe thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
 
 ---------------------------------------
 
