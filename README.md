@@ -4,6 +4,9 @@
 
 The **TSOC_GROVEY_ONE** connects any thingSoC or Mikrobus module to the Arduino Development environment, with the origianl processor, the ATMEGA328P.
 
+The **TSOC_GROVEY_ONE** allows you to connect thingSoC, Mikrobus, and/or Grove System Modules all at the same time.
+THis gives you maximum flexiblity for parts selection and reuse. 
+
 
 ---------------------------------------
 
@@ -26,11 +29,11 @@ The **TSOC_GROVEY_ONE** connects any thingSoC or Mikrobus module to the Arduino 
 [![thingSoC GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/images/product/TSOC_GROVEY_ONE_wiring.png?raw=true)TSOC_GROVEY_ONE Example Wiring](https://github.com/thingSoC/TSOC_GROVEY_ONE/)
 
 
-* [Modbus Weather Sensor](http://www.mikroe.com/click/weather/) BOSCH BME280 Temp, Humidity, Air Pressure
-* [Modbus Methane Sensor](http://www.mikroe.com/click/methane/) MQ-4 Sensor for Methane (CH4) 
-* [Modbus Air Quality Sensor](http://www.mikroe.com/click/air-quality/) MQ-135 Sensor for Harmful Gasses
-* [Modbus Lightning Sensor](http://www.mikroe.com/click/thunder/) AS3935 Lighting Strike Detector
-* [Modbus Controlled Relay](http://www.mikroe.com/click/relay/) G6D1AASI Power Relay Control Module
+* [Weather Sensor](http://www.mikroe.com/click/weather/) BOSCH BME280 Temp, Humidity, Air Pressure
+* [Methane Sensor](http://www.mikroe.com/click/methane/) MQ-4 Sensor for Methane (CH4) 
+* [Air Quality Sensor](http://www.mikroe.com/click/air-quality/) MQ-135 Sensor for Harmful Gasses
+* [Lightning Sensor](http://www.mikroe.com/click/thunder/) AS3935 Lighting Strike Detector
+* [Controlled Relay](http://www.mikroe.com/click/relay/) G6D1AASI Power Relay Control Module
 
 ---------------------------------------
 ## 3D Model (Sketchup)
