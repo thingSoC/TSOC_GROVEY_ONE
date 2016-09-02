@@ -7,7 +7,7 @@ The **TSOC_GROVEY_ONE** connects any thingSoC or Mikrobus module to the Arduino 
 
 ---------------------------------------
 
-[![thingSoC GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/images/product/TSOC_GROVEY_ONE_top.jpg?raw=true)TSOC_GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/)
+[![thingSoC GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/images/TSOC_GROVEY_ONE_top.png?raw=true)TSOC_GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/)
 
 
 * [thingSoC Compliant Module](http://www.thingsoc.com)
