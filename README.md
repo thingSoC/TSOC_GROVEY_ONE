@@ -55,11 +55,11 @@ to indicate what peripherals are installed.
 
 ## Documentation Index <a name="documentation_index"/>
 
-[TSOC_GROVEY_ONE Quick Start Guide](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/docs/QuickStart.md)
+[Quick Start Guide](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/docs/QuickStart.md)
 
-[TSOC_GROVEY_ONE User Guide](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/docs/UserGuide.md)
+[User Guide](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/docs/UserGuide.md)
 
-[TSOC_GROVEY_ONE Theory of Operation](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/docs/TheoryOfOperation.md)
+[Theory of Operation](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/docs/TheoryOfOperation.md)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
 
