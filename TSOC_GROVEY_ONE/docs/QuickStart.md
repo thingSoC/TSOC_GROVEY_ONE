@@ -16,6 +16,10 @@ The **TSOC_GROVEY_ONE**  Quick Start Guide is a series of quick steps to try out
 
 [![thingSoC GROVEY_One](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/images/product/Grove_5V_I2C_LCD_panel.png?raw=true)TSOC_GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/)
 
+The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)
+to indicate what peripherals are installed.
+
 ---------------------------------------
 
 ## Documentation Index <a name="documentation_index"/>

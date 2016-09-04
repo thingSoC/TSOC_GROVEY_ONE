@@ -9,6 +9,10 @@ This gives you maximum flexiblity for sensor and actuator, selection and reuse.
 
 [![thingSoC GROVEY_I2CHUB](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/images/product/TSOC_GROVEY_ONE_top.png?raw=true)TSOC_GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/)
 
+The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)
+to indicate what peripherals are installed.
+
 * [Supported by the Arduino IDE](https://www.arduino.cc/) 
 * [thingSoC Compliant Module](http://www.thingsoc.com)
 * [Mikrobus Compatible Module](http://www.mikroe.com/mikrobus/) 

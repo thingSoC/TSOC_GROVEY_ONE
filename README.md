@@ -6,7 +6,9 @@ and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-
 Modules all at the same time, using the Arduino Development environment, with the the ATMEGA328P processor.
 This gives you maximum flexiblity for sensor and actuator, selection and reuse. 
 
-THe thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)
+to indicate what peripherals are installed.
 
 ---------------------------------------
 
