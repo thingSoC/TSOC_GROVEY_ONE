@@ -8,7 +8,7 @@ The **TSOC_GROVEY_ONE**  Quick Start Guide is a series of quick steps to try out
 ## Quick Start Guide <a name="quickstartguide_index"/>
 
 1. Plug the **TSOC_GROVEY_ONE** into another thingSoC board, such as the Teensy3x or Grovey_WiFi
-2. Plug an I2C Peripheral into the **TSOC_GROVEY_ONE** and note which port number (there are four ports).
+2. Plug a Peripheral into the **TSOC_GROVEY_ONE** and note which port number (there are four ports).
 3. Open the Arduino IDE and Select "File -> Examples -> TSOC_GROVEY_ONE -> Port X  
    where X is the Port number that your installed your peripheral into
 4. Follow the instructions on your screen to configure the TSOC_GROVEY_ONE for your application.

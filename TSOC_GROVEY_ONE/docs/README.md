@@ -1,11 +1,9 @@
-**TSOC_GROVEY_ONE** is a four(4) port I2C Hub/Switch board, an Embedded Module for thingSoC.
-
-The **TSOC_GROVEY_ONE** can operate at either 3.3V or 5V, and can also level translate 3.3V processor I2C bus to 5V peripherals when needed.
+**TSOC_GROVEY_ONE** is a ATMEGA328 based board, an Embedded Module for thingSoC compatible with the Arduino IDE.
 
 The **TSOC_GROVEY_ONE** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), 
 and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) 
-Modules all at the same time, with any processor module.
-This gives you maximum flexiblity for sensor and actuator selection, and reuse. 
+Modules all at the same time, using the Arduino Development environment, with the the ATMEGA328P processor.
+This gives you maximum flexiblity for sensor and actuator, selection and reuse. 
 
 [![thingSoC GROVEY_I2CHUB](https://github.com/thingSoC/TSOC_GROVEY_ONE/blob/master/TSOC_GROVEY_ONE/images/product/TSOC_GROVEY_ONE_top.png?raw=true)TSOC_GROVEY_ONE](https://github.com/thingSoC/TSOC_GROVEY_ONE/)
 

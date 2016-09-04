@@ -1,10 +1,10 @@
 # TSOC_GROVEY_ONE
-**TSOC_GROVEY_ONE** is a ATMEGA328 based board, an Embedded Module for thingSoC.
+**TSOC_GROVEY_ONE** is a ATMEGA328 based board, an Embedded Module for thingSoC compatible with the Arduino IDE.
 
 The **TSOC_GROVEY_ONE** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), 
 and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) 
 Modules all at the same time, using the Arduino Development environment, with the the ATMEGA328P processor.
-This gives you maximum flexiblity for parts selection and reuse. 
+This gives you maximum flexiblity for sensor and actuator, selection and reuse. 
 
 THe thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
 
