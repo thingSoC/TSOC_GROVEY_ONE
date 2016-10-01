@@ -174,7 +174,7 @@
 <board>
 <plain>
 <text x="3.81" y="0.254" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">3.3V</text>
-<text x="17.78" y="12.7" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Rev. 1.1</text>
+<text x="17.78" y="12.7" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Rev. 2.0</text>
 <rectangle x1="12.446" y1="9.652" x2="28.956" y2="12.192" layer="22"/>
 <text x="28.956" y="12.7" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Serial Number:</text>
 <text x="28.956" y="16.51" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">TSOC_GROVEY_ONE!</text>

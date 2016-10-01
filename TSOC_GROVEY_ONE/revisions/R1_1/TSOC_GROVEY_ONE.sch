@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17300,14 +17300,14 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="I2C" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP-90D(4P-2.0)" device="" value="4P-2.0-90D"/>
 <part name="UART" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP-90D(4P-2.0)" device="" value="4P-2.0-90D"/>
 <part name="AIO" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP-90D(4P-2.0)" device="" value="4P-2.0-90D"/>
-<part name="R9" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
-<part name="R10" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
-<part name="R7" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
-<part name="R8" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
+<part name="R9" library="Seeed-Resistor-2016" deviceset="SMD-RES-2.2K-5%-1/10W(0603)" device="" value="1K"/>
+<part name="R10" library="Seeed-Resistor-2016" deviceset="SMD-RES-2.2K-5%-1/10W(0603)" device="" value="1K"/>
+<part name="R7" library="Seeed-Resistor-2016" deviceset="SMD-RES-2.2K-5%-1/10W(0603)" device="" value="1K"/>
+<part name="R8" library="Seeed-Resistor-2016" deviceset="SMD-RES-2.2K-5%-1/10W(0603)" device="" value="1K"/>
 <part name="R3" library="Seeed-Resistor-2016" deviceset="SMD-RES-2.2K-5%-1/10W(0603)" device="" value="2.2K"/>
 <part name="R2" library="Seeed-Resistor-2016" deviceset="SMD-RES-2.2K-5%-1/10W(0603)" device="" value="2.2K"/>
-<part name="R5" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
-<part name="R4" library="Seeed-Resistor-2016" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" value="1K 1/10W"/>
+<part name="R5" library="Seeed-Resistor-2016" deviceset="SMD-RES-2.2K-5%-1/10W(0603)" device="" value="1K"/>
+<part name="R4" library="Seeed-Resistor-2016" deviceset="SMD-RES-2.2K-5%-1/10W(0603)" device="" value="1K"/>
 <part name="FID4" library="TSOC-ESP8266-BASE" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID2" library="TSOC-ESP8266-BASE" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID3" library="TSOC-ESP8266-BASE" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
