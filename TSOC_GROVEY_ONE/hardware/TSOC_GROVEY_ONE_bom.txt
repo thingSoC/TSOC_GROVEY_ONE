@@ -1,26 +1,40 @@
-Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_GROVEY_ONE/TSOC_GROVEY_ONE/TSOC_GROVEY_ONE.sch Revison 1.1 at 9/29/2016 11:40:15 AM
+Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_GROVEY_ONE/TSOC_GROVEY_ONE/TSOC_GROVEY_ONE.sch at 11/9/2016 3:23:07 PM
+RFevison 2.0
 
-Qty Value             Device                                          Package            Parts                                 Description                           
-9   100nf             CERAMIC-100NF-50V-10%-X7R(0603)         C0603              C1, C2, C4, C6, C7, C9, C10, C12, C13 302010138                             
-1   10K 1/10W         SMD-RES-10K-5%-1/10W(0603)              R0603              R6                                    301010293                             
-2   10uf              CERAMIC-10UF-10V-10%-X5R(0603)          C0603              C3, C5                                302010103                             
-2   120OHM-500MA      SMD-FERRITE-CHIP-120-OHM-500MA(0603)    L0603              L1, L2                                303030001                             
-1   16MHZ             SMD-RESONATOR-16MHZ-15PF-0.5%-40R       X3-SMD             X1                                    306030002                             
-8   1K 1/10W          SMD-RES-1K-5%-1/10W(0603)               R0603              R1, R11,R4, R5, R7, R8, R9, R10       301010291                             
-2   2.2K              SMD-RES-2.2K-5%-1/10W(0603)             R0603              R2, R3                                301010124                             
-1   22uF              CAP-1206                                EIA-1206           C11                                   Ceramic Cap                
-1   470Pf             CERAMIC-100NF-50V-10%-X7R(0603)         C0603              C8                                    302010138                             
-1   GREEN-0603        SMD-LED-CLEAR-GREEN(0603)               LED-0603           LED1                                  304090043                             
-1   RED-0603          SMD-LED-CLEAR-GREEN(0603)               LED-0603           LED2                                  304090043                             
-1   ATMEGA328         ATMEGA168                               TQFP32-08          U2                                                                          
-1   MIC5219 3.3V      V_REG_MIC52193.3V                       SOT23-5            U1                                    V_REG MIC5219                         
-
-Optional Parts (Do NOT Install on Production Boards)
-----------------------------------------------------------------------------------------------------------------------------------------------
-4   4P-2.0-90D        GROVE-CONNECTOR-DIP-90D(4P-2.0)         HW4-2.0-90D        J1, J2, J5, J6                        320110034                             
-1   6p-2.54           DIP-BLACK-MALE-HEADER(6P-2.54)          H6-2.54            J4                                    320020078                             
-1   NO                JMP-3-NO-PTH                            JMP-3-NO-PTH-2.54  J3                                    Three Terminal Jumper 
-1                     M03PTH                                  1X03               PRG                                   Header 3                              
-1                     M01PTH                                  1X01               GND                                   Header 1                              
-1                     JMP-2-NO                                JMP-2-NO           A7                                    Two Terminal Jumper 
-----------------------------------------------------------------------------------------------------------------------------------------------
+Part  Value                Device                                          Package              Description                           BOM     MPN                 VALUE               
+C1    100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C2    100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C3    10uf                 CERAMIC-10UF-10V-10%-X5R(0603)                  C0603                302010103                                     CC0603KRX5R6BB106   10uf                
+C4    100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C5    10uf                 CERAMIC-10UF-10V-10%-X5R(0603)                  C0603                302010103                                     CC0603KRX5R6BB106   10uf                
+C6    100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C7    100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C8    470Pf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C9    100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C10   100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C11   22uF                 CAP-1206                                        EIA-1206             Ceramic Capacitor SMD                                                                 
+C12   100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+C13   100nf                CERAMIC-100NF-50V-10%-X7R(0603)                 C0603                302010138                                     CC0603KRX7R9BB104   100nf               
+R1    1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                       R0603                301010291                                     RC0603JR-071KL      1K 1/10W            
+R2    2.2K                 SMD-RES-2.2K-5%-1/10W(0603)                     R0603                301010124                                     RC0603JR-072K2L     2.2K                
+R3    2.2K                 SMD-RES-2.2K-5%-1/10W(0603)                     R0603                301010124                                     RC0603JR-072K2L     2.2K                
+R4    1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                       R0603                301010291                                     RC0603JR-071KL      1K 1/10W            
+R5    1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                       R0603                301010291                                     RC0603JR-071KL      1K 1/10W            
+R6    10K 1/10W            SMD-RES-10K-5%-1/10W(0603)                      R0603                301010293                                     RC0603JR-0710KL     10K 1/10W           
+R7    1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                       R0603                301010291                                     RC0603JR-071KL      1K 1/10W            
+R8    1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                       R0603                301010291                                     RC0603JR-071KL      1K 1/10W            
+R9    1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                       R0603                301010291                                     RC0603JR-071KL      1K 1/10W            
+R10   1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                       R0603                301010291                                     RC0603JR-071KL      1K 1/10W            
+R11   1K 1/10W             SMD-RES-1K-5%-1/10W(0603)                       R0603                301010291                                     RC0603JR-071KL      1K 1/10W            
+L1    120OHM-500MA         SMD-FERRITE-CHIP-120-OHM-500MA(0603)            L0603                303030001                                     BLM18AG121SN1D      120OHM-500MA        
+X1    16MHZ                SMD-RESONATOR-16MHZ-15PF-0.5%-40R(3P-3.2X1.3MM) X3-SMD-3.6X1.3X0.8MM 306030002                                     CSTCE16M0V53-R0     16MHZ               
+LED1  GREEN-0603           SMD-LED-CLEAR-GREEN(0603)                       LED-0603             304090043                                     19-217-G7C-AN1P2-3T GREEN-0603          
+LED2  RED-0603             SMD-LED-CLEAR-GREEN(0603)                       LED-0603             304090043                                     19-217-G7C-AN1P2-3T GREEN-0603          
+U1    MIC5219              PMIC-LDO                                        SOT-23-5                                                           MIC5219-3.3V        MIC5219-3.3V
+U2    ATMEGA328            ATMEGA168                                       TQFP32-08                                                                                                  
+AIO   4P-2.0-90D           GROVE-CONNECTOR-DIP-90D(4P-2.0)                 HW4-2.0-90D          320110034                                                         4P-2.0-90D          
+I2C   4P-2.0-90D           GROVE-CONNECTOR-DIP-90D(4P-2.0)                 HW4-2.0-90D          320110034                                                         4P-2.0-90D          
+SPI   4P-2.0-90D           GROVE-CONNECTOR-DIP-90D(4P-2.0)                 HW4-2.0-90D          320110034                                                         4P-2.0-90D          
+UART  4P-2.0-90D           GROVE-CONNECTOR-DIP-90D(4P-2.0)                 HW4-2.0-90D          320110034                                                         4P-2.0-90D          
+J3    NO                   JMP-3-NO-PTH                                    JMP-3-NO-PTH-2.54    Three Terminal Jumper - Normally Open                                                 
+J4    6p-2.54              DIP-BLACK-MALE-HEADER(6P-2.54)                  H6-2.54              320020078                                     P125-1106A1BS116A1  6p-2.54             

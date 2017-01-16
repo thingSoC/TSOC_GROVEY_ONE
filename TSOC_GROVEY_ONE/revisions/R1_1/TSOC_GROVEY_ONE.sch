@@ -14600,48 +14600,12 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <package name="MICRO-FIDUCIAL">
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
-<package name="SOT23-5">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="1.27" y1="0.4294" x2="1.27" y2="-0.4294" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-0.4294" x2="-1.27" y2="0.4294" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="-0.2684" y1="0.7088" x2="0.2684" y2="0.7088" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
-<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-<circle x="-1.6002" y="-1.016" radius="0.127" width="0" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="FIDUCIAL">
 <wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
-<symbol name="V-REG-LDO">
-<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-7.62" y="9.144" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
-<pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
-<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
-<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
-<pin name="BP" x="7.62" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14660,45 +14624,6 @@ Various fiducial points for machine vision alignment.</description>
 <device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="V_REG_MIC5219" prefix="U" uservalue="yes">
-<description>&lt;b&gt;V_REG MIC5219&lt;/b&gt;
-Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5219. BP (by-pass) pin is used to lower output noise with 470pF cap, may be left open.</description>
-<gates>
-<gate name="G$1" symbol="V-REG-LDO" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="3.3V" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="BP" pad="4"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="VREG-09872"/>
-<attribute name="VALUE" value="MIC5219 3.3V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="5V" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="BP" pad="4"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="VREG-10107"/>
-<attribute name="VALUE" value="MIC5219 5V" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -17282,6 +17207,107 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-PowerIC">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find drivers, regulators, and amplifiers.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
+<package name="SC70">
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
+<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
+<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
+<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
+<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
+</package>
+</packages>
+<symbols>
+<symbol name="V-REG-LDO">
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-7.62" y="9.144" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="GND" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="BP" x="7.62" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="V_REG_LDO" prefix="U">
+<description>&lt;b&gt;Voltage Regulator LDO&lt;/b&gt;
+Standard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (by-pass) pin is used to lower output noise with 470pF cap.</description>
+<gates>
+<gate name="G$1" symbol="V-REG-LDO" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="BP" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD2" package="SC70">
+<connects>
+<connect gate="G$1" pin="BP" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17340,7 +17366,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="TSOC" library="thingSoC" deviceset="TSOC-24" device="-BB"/>
 <part name="L1" library="Seeed-Inductor-2016" deviceset="SMD-FERRITE-CHIP-120-OHM-500MA(0603)" device="" value="120OHM-500MA"/>
 <part name="J4" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER(6P-2.54)" device="" value="6p-2.54"/>
-<part name="U1" library="TSOC-ESP8266-BASE" deviceset="V_REG_MIC5219" device="3.3V" value="MIC5219 3.3V"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="C8" library="Seeed-Capacitor-2016" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="470Pf"/>
@@ -17358,6 +17383,9 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="C11" library="TSOC_USBUART2" deviceset="CAP" device="-1206" value="22uF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND" library="PatternAgents-ProtoPads" deviceset="M01" device="PTH"/>
+<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LDO" device="SMD" value="AP2112K-3.3V">
+<attribute name="PROD_ID" value="VREG-12457"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17460,7 +17488,6 @@ Open Source Sockets for IoT</text>
 <instance part="TSOC" gate="TSOC" x="-152.4" y="-93.98"/>
 <instance part="L1" gate="L" x="-213.36" y="-91.44"/>
 <instance part="J4" gate="G$1" x="-152.4" y="-44.45"/>
-<instance part="U1" gate="G$1" x="124.46" y="-96.52"/>
 <instance part="GND7" gate="1" x="137.16" y="-119.38"/>
 <instance part="GND8" gate="1" x="109.22" y="-119.38"/>
 <instance part="C8" gate="G$1" x="137.16" y="-109.22" rot="R270"/>
@@ -17478,6 +17505,9 @@ Open Source Sockets for IoT</text>
 <instance part="C11" gate="G$1" x="180.34" y="-110.49"/>
 <instance part="GND3" gate="1" x="180.34" y="-119.38"/>
 <instance part="GND" gate="G$1" x="195.58" y="-114.3" rot="R180"/>
+<instance part="U1" gate="G$1" x="121.92" y="-96.52">
+<attribute name="PROD_ID" x="121.92" y="-96.52" size="2.54" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17489,27 +17519,27 @@ Open Source Sockets for IoT</text>
 <label x="-223.52" y="-91.44" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="114.3" y1="-91.44" x2="101.6" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="-105.41" x2="101.6" y2="-96.52" width="0.1524" layer="91"/>
 <label x="187.96" y="-78.74" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
-<wire x1="101.6" y1="-96.52" x2="101.6" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-78.74" x2="101.6" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-78.74" x2="149.86" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-78.74" x2="187.96" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="-91.44" x2="101.6" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="101.6" y="-91.44"/>
+<wire x1="101.6" y1="-105.41" x2="101.6" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="101.6" y="-78.74"/>
+<wire x1="101.6" y1="-101.6" x2="101.6" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-91.44" x2="101.6" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-104.14" x2="88.9" y2="-105.41" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-105.41" x2="88.9" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-81.28" x2="149.86" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="149.86" y="-78.74"/>
-<pinref part="U1" gate="G$1" pin="EN"/>
-<wire x1="114.3" y1="-96.52" x2="101.6" y2="-96.52" width="0.1524" layer="91"/>
-<junction x="101.6" y="-96.52"/>
 <pinref part="J3" gate="JMP" pin="3"/>
 <pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="EN"/>
+<wire x1="111.76" y1="-101.6" x2="101.6" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="101.6" y="-101.6"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="111.76" y1="-91.44" x2="101.6" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="101.6" y="-91.44"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -17588,9 +17618,9 @@ Open Source Sockets for IoT</text>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="109.22" y1="-116.84" x2="109.22" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-116.84" x2="109.22" y2="-96.52" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="109.22" y1="-101.6" x2="114.3" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-96.52" x2="111.76" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
@@ -17651,8 +17681,6 @@ Open Source Sockets for IoT</text>
 </segment>
 <segment>
 <label x="187.96" y="-91.44" size="1.27" layer="95" font="vector" ratio="10" rot="MR180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="OUT"/>
-<wire x1="132.08" y1="-91.44" x2="149.86" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-91.44" x2="187.96" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="149.86" y="-91.44"/>
 <wire x1="149.86" y1="-104.14" x2="149.86" y2="-105.41" width="0.1524" layer="91"/>
@@ -17660,6 +17688,8 @@ Open Source Sockets for IoT</text>
 <wire x1="149.86" y1="-86.36" x2="149.86" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="J3" gate="JMP" pin="1"/>
 <pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="149.86" y1="-91.44" x2="129.54" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -18170,10 +18200,10 @@ Open Source Sockets for IoT</text>
 </net>
 <net name="BYPASS1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="BP"/>
-<wire x1="132.08" y1="-101.6" x2="137.16" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-101.6" x2="137.16" y2="-105.41" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="BP"/>
+<wire x1="129.54" y1="-101.6" x2="137.16" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A7" class="0">
